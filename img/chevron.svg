@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="50px" viewBox="0 0 59 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="16.78805 0 33.574 0 33.574 50 16.78805 50 0.0021 50 0.0021 0 16.78805 0"></polygon>
+    </defs>
+    <g id="BLOK-HAIRCUTS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-131.000000, -1544.000000)">
+            <g id="Group-9" transform="translate(25.000000, 1544.000000)">
+                <g id="Page-1" transform="translate(106.000000, 0.000000)">
+                    <path d="M20.4741,0 L0.0011,0 L13.0981,24.999 L0.000100000001,50 L20.4721,50 L33.5711,24.999 C29.2181,16.676 24.8391,8.33 20.4741,0 M16.8451,6 L18.7431,9.621 C21.4301,14.747 24.1191,19.876 26.7981,24.997 L16.8421,44 L9.9171,44 L18.4121,27.783 L19.8711,24.999 L18.4121,22.215 L9.9181,6 L16.8451,6" id="Fill-1" fill="#002539"></path>
+                    <g id="Group-5" transform="translate(25.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="M20.4771,0 L0.0031,0 L13.1011,24.999 L0.0021,50 L20.4751,50 L33.5741,24.999 C29.2211,16.676 24.8421,8.33 20.4771,0 M16.8481,6 L18.7391,9.607 C21.4281,14.738 24.1191,19.871 26.8011,24.997 L16.8451,44 L9.9191,44 L18.4151,27.783 L19.8741,24.999 L18.4151,22.215 L9.9201,6 L16.8481,6" id="Fill-3" fill="#002539" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

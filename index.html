@@ -1,0 +1,330 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico.png">
+  <title>Парикмахер</title>
+  <link rel="dns-prefetch" href="//use.typekit.net">
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link href="css/reset.css" rel="stylesheet">
+  <link rel="stylesheet" id="style-css-css" href="css/style.css" type="text/css" media="all">
+
+  <script src="http://code.jquery.com/jquery-latest.js"></script> <!-- подключаем последнюю версию jQuery -->
+  	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script> 
+  <link rel="stylesheet" type="text/css" href="css/gallery/style.css"> 
+  <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <!-- =======================================FONT========================================== -->
+    <style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style>
+  <style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+</style>
+  <style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style>
+    <style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style>
+  <style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
+      <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style>
+      <style type="text/css">@font-face{font-family:tk-proxima-nova-n7;src:url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:tk-proxima-nova-n8;src:url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:tk-proxima-nova-n4;src:url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}</style>
+      <style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}</style>
+        <style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style>
+  <!--# =======================================FONT========================================== #-->
+</head>
+
+  <header class="main-header">
+    <div class="main-header__left-col">
+      <div class="menu-top-menu-ru-container">
+        <ul id="menu-top-menu-ru" class="main-menu">
+          <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28">
+            <a href="#price">Услуги</a>
+          </li>
+          <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29">
+            <a href="#about">О нас</a>
+          </li>
+          <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30">
+            <a href="#lookbook">Работы</a>
+          </li>
+          <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31">
+            <a href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-header__center-col">
+      <button type="button" name="button" class="btn-reset main-menu-btn" data-dropdown-id="main-menu">
+        <img src="img/menu.svg" alt="" class="main-menu-btn__burger"  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="img/close.svg" alt="" class="main-menu-btn__close"  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></button>
+      <!--   w71730.yclients.com -->
+      <a href="#contacts" target="_blank" class="btn-bordered main-header__center-col__record-btn">
+        <span class="btn-bordered__text">Записаться</span>
+      </a>
+    </div>
+  </header>
+
+<!--   <div class="dropdown-wr" id="main-menu">
+    <div class="dropdown">
+
+      <a href="#" class="current-lang-mob">EN</a>
+      <div class="menu-top-menu-ru-container">
+        <ul id="menu-top-menu-ru-1" class="mob-menu">
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28">
+            <a href="#price">Услуги</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29">
+            <a href="#about">О нас</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30">
+            <a href="#lookbook">Лукбук</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31">
+            <a href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#contacts" class="btn-reset btn-bordered -wide dropdown__btn-record btn-record-handler-js">
+        <span class="btn-bordered__text">Записаться</span>
+      </a>
+      <a href="tel:info@email.ru" class="btn-reset btn-bordered -wide dropdown__btn-call">
+        <span class="btn-bordered__text">info@email.ru</span>
+      </a>
+    </div>
+  </div> -->
+
+<!--   <div class="dropdown-wr" id="city-menu">
+    <div class="dropdown city-menu-dropdown">
+      <div class="cover"></div>
+      <button class="btn-reset close">
+        <img src="" alt="" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="img/close.svg" alt="" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></button>
+    </div>
+  </div> -->
+
+<!--   <div class="dropdown-wr" id="vacancies-dropdown">
+    <div class="dropdown vacancies-dropdown">
+      <div class="container">
+        <button class="btn-reset close">
+          <img src="" alt="" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          <img src="imgclose.svg" alt="" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></button>
+
+
+
+        <a href="tel:+74993908635" class="vacancies__link">+7 499 390 86 35</a>
+        <br>
+        <a href="mailto:info@email.ru" class="vacancies__link">info@email.ru</a>
+
+      </div>
+    </div>
+  </div> -->
+  <section class="section top" id="home hh">
+    <div class="container">
+      <div class="top__cols">
+        <div class="top__cols__left">
+          <h1 class="top__title" style="margin-top:0px;">Смагина Елена</h1>
+          <div class="top__text hide-on-small about-text  ">
+            <p>
+               Мастер универсал,стилист.
+              Самые свежие и актуальные модные тенденции стрижек и причесок сезона 2018 с удовольствием представляют стилисты салонов «Люкс».
+Удачно подобранная стрижка может оказать колоссальное влияние на нашу внешность, поэтому к процессу выбора новой прически необходимо подходить очень серьезно и ответственно.
+            </p>
+ 
+          </div>
+        </div>
+        <div class="top__cols__center">
+          <img src="img/arrow.svg" alt="" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+        <div class="top__cols__right">
+          <img width="367" height="550" src="img/portfolio/model1.jpg" class="top__img" alt="" srcset="" sizes="(max-width: 367px) 100vw, 367px" ="2880147818" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+      </div>
+
+    </div>
+  </section>
+    <section class="section about" id="about">
+    <div class="container">
+
+      <h1 class="section__title">О нас</h1>
+      <div class="service-list">
+        <article class="service-list__item">
+          <img class="service-list__item__icon" src="img/currency.svg" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          <h3 class="service-list__item__title">Честная цена</h3>
+          <p class="service-list__item__description">Вы платите только за услугу</p>
+        </article>
+        <article class="service-list__item">
+          <img class="service-list__item__icon" src="img/scissors.svg" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          <h3 class="service-list__item__title">Качество</h3>
+          <p class="service-list__item__description">Общая практика 16 лет</p>
+        </article>
+        <article class="service-list__item">
+          <img class="service-list__item__icon" src="img/chevron.svg" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          <h3 class="service-list__item__title">Сервис</h3>
+          <p class="service-list__item__description">Обслуживаем быстро и без лишних слов</p>
+        </article>
+      </div>
+      <br>
+<div class="about">
+  <div class="about-text">
+    <p> Основной залог успеха любой прически – здоровый и ухоженный внешний вид волос, в том числе «дорогой» модный цвет, блеск и жизненная сила.
+Если Ваши волосы уже обладают всеми вышеперечисленными качествами, то Вы самостоятельно сможете ознакомиться на нашем сайте с рекомендациями по модным стрижкам и прическам сезона 2018, начиная от ярких креативных стрижек, и заканчивая практичными и стильными прическами на каждый день.</p>
+           <p>
+              Многое, что, казалось бы, уже давно знакомо и много раз пройдено, оказывается актуальным вновь и возвращается в сезоне 2018, сверкая новыми гранями дизайнерской фантазии.
+            </p>
+  </div>
+</div>
+  <div class="container">
+        
+            <h1>сертификаты и технологии</h1>
+
+            <div id="gallery">
+
+                <figure class="photo">
+                    <a href="img/certificate/certificate-1.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/certificate/min/certificate-1-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Сертификат   №1</figcaption>
+                </figure>
+                                <figure class="photo">
+                    <a href="img/certificate/certificate-1.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/certificate/min/certificate-1-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Сертификат   №2</figcaption>
+                </figure>
+                                <figure class="photo">
+                    <a href="img/certificate/certificate-1.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/certificate/min/certificate-1-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Сертификат   №3</figcaption>
+                </figure>
+
+            </div>
+        </div>
+
+    </div>
+  </section>
+  <section class="section price" id="price">
+    <div class="container">
+      <h1 class="section__title">Услуги</h1>
+      <ul class="price-list">
+        <li class="price-list__item">
+          <span class="price-list__item__type">Стрижка женская</span>
+          <span class="price-list__item__price"> от 600-1000 рублей</span>
+        </li>
+        <li class="price-list__item">
+          <span class="price-list__item__type">Стрижка мужская</span>
+          <span class="price-list__item__price">от 400-700 рублей</span>
+        </li>
+        <li class="price-list__item">
+          <span class="price-list__item__type">Окрашивания любой сложности</span>
+          <span class="price-list__item__price">от 1700 рублей</span>
+        </li>
+        <li class="price-list__item">
+          <span class="price-list__item__type">Прически (свадебные и вечерние)</span>
+          <span class="price-list__item__price">от 1000 рублей</span>
+        </li>
+        <li class="price-list__item">
+          <span class="price-list__item__type">Укладки</span>
+          <span class="price-list__item__price">от 600-1000 рублей</span>
+        </li>
+                <li class="price-list__item">
+          <span class="price-list__item__type">Завивка волос </span>
+          <span class="price-list__item__price">от 1700 рублей</span>
+        </li>
+                <li class="price-list__item">
+          <span class="price-list__item__type">Лечение( востановление ) волос</span>
+          <span class="price-list__item__price">от 1700 рублей</span>
+        </li>
+      </ul>
+      <a href="#contacts" class="btn-bordered -medium btn-record-handler-js">
+        <span class="btn-bordered__text">Записаться</span>
+      </a>
+
+    </div>
+  </section>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
+      <section class="section lookbook" id="lookbook">
+                <div class="container">
+        
+            <h1>портфолио</h1>
+
+            <div id="gallery">
+
+                <figure class="photo">
+                    <a href="img/portfolio/model-1.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/portfolio/min/model-1-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Модель №1</figcaption>
+                </figure>
+                <figure class="photo">
+                    <a href="img/portfolio/model-1-1.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/portfolio/min/model-1-1-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Модель №1-1</figcaption>
+                </figure>
+                                <figure class="photo">
+                    <a href="img/portfolio/model-2.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/portfolio/min/model-2-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Модель №2</figcaption>
+                </figure>
+                <figure class="photo">
+                    <a href="img/portfolio/model-4.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/portfolio/min/model-4-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Модель №4</figcaption>
+                </figure>
+                                <figure class="photo">
+                    <a href="img/portfolio/model-4.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/portfolio/min/model-4-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Модель №4</figcaption>
+                </figure>
+                                <figure class="photo">
+                    <a href="img/portfolio/model-4.jpg" data-lightbox="roadtrip" data-title="Eagle"><img src="img/portfolio/min/model-4-min.jpg" alt="Eagle" /></a>
+                    <figcaption>Модель №4</figcaption>
+                </figure>
+
+            </div>
+        </div>
+      </section>
+  <!-- ////////////////////////////////////////////////////////////////////////// -->
+  <section class="section contacts" id="contacts">
+    <div class="container">
+
+      <h1 class="section__title">Контакты</h1>
+      <div class="hide-on-small">
+        <div class="left">
+          <a class="contacts__main-contact" style="margin:0;">Номер для бронирования:</a><br>
+          <a class="contacts__main-contact" style="margin:0;">E-mail:<a>
+            <br>
+          <a class="contacts__main-contact" style="margin:0;">Адрес:<a>
+        </div>
+        <div class="right">
+                    <a href="tel:+74993908635" class="contacts__main-contact">+7 499 390 86 35</a><br>
+          <a href="mailto:info@blokhaircuts.ru" class="contacts__main-contact">info@blokhaircuts.ru</a>
+          <br>
+           <a href="mailto:info@blokhaircuts.ru" class="contacts__main-contact">ул.Такая-то 1,кв.Такая-то 5</a>
+
+        </div>
+
+    </div>
+    <div class="show-on-small">
+                <a href="tel:+74993908635" class="btn-bordered -wide">
+      <span class="btn-bordered__text">+7 499 390 86 35</span>
+    </a>
+    <br>
+   
+    <a href="mailto:info@blokhaircuts.ru" class="btn-bordered -wide">
+      <span class="btn-bordered__text">info@email.ru</span>
+    </a>
+  </div>
+
+  
+</div>
+</section>
+<footer class="main-footer">
+
+<div class="left-col">
+  <span class="copyright">© Create by Birukoff</span>
+
+</div>
+
+<div class="right-col">
+
+<a href="https://www.facebook.com" target="_blank" class="soc-ico">
+  <img src="img/facebook.svg" alt="" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+<a href="https://www.instagram.com" target="_blank" class="soc-ico">
+  <img src="img/instagram.svg" alt="" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+<a href="https://vk.com" target="_blank" class="soc-ico">
+  <img src="img/vk.svg" alt="" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+</div>
+</footer>
+</div>
+<script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
