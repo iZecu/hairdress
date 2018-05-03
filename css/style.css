@@ -776,14 +776,30 @@ a {
     line-height: 40px; }
 
 .top__title {
-  font-size: 40px;
-  width: 100%;
-  letter-spacing: 2px; }
+text-align: center;
+    font-size: 57px;
+    text-transform: uppercase;
+    color: #00263A;
+    text-align: center;
+    margin: 30px 0; 
+  }
+  .top__title p{
+/*text-align: center;*/
+    font-size: 22px;
+/*    text-transform: uppercase;
+    color: #00263A;
+    text-align: center;
+    margin: 30px 0; */
+  }
   @media screen and (min-width: 1000px) {
     .top__title {
       font-size: 50px; } }
+/*.container .top__title h1 {
+  font-size: 80px;
+}*/
 
-.top__text {
+.top__text p{
+font-size: 22px;
   line-height: 1.6; }
 
 .top .btn-bordered-wr {
@@ -829,7 +845,7 @@ a {
     text-align: center; }
     @media screen and (min-width: 1000px) {
       .top__cols__right {
-        width: 50%;
+        width: 30%;
         text-align: left; } }
 
 .logo img {
@@ -905,6 +921,9 @@ a {
 }
 .about-text{
   text-align: center;
+}
+.about-text p{
+  /*font-size: 22px;*/
 }
 .about-text p:first-letter {
         font-family: "Times New Roman", Times, serif;
