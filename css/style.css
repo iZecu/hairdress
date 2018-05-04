@@ -4,6 +4,20 @@ Theme Name: Block
 Author: Flor
 Version: 1.0
 */
+/*fonts*/
+   @font-face {
+    font-family: Oswald-Bold; /* Имя шрифта */
+    src: url(fonts/Oswald-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+      @font-face {
+    font-family: Oswald-Light; /* Имя шрифта */
+    src: url(fonts/Oswald-Ligt.ttf); /* Путь к файлу со шрифтом */
+   }
+      @font-face {
+    font-family: Oswald-Regular; /* Имя шрифта */
+    src: url(fonts/Oswald-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+/*fonts*/
 /* Slider */
 @import url("https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic");
 .slick-slider {
@@ -347,9 +361,7 @@ a {
     box-sizing: border-box; }
   .btn-bordered .-big-on-small {
     width: 100%; }
-    @media screen and (min-width: 1000px) {
-      .btn-bordered .-big-on-small {
-        width: auto; } }
+   
 /*===================BTN==================*/
 .section {
   background: #C1C6C8;
@@ -793,7 +805,16 @@ text-align: center;
   }
   @media screen and (min-width: 1000px) {
     .top__title {
-      font-size: 50px; } }
+      font-size: 50px; } 
+.technology-title{
+  font-size: 30px; 
+}
+    }
+      @media screen and (max-width: 1000px) {
+.technology-title{
+  font-size: 22px; 
+}
+    }
 /*.container .top__title h1 {
   font-size: 80px;
 }*/
@@ -923,7 +944,7 @@ font-size: 22px;
   text-align: center;
 }
 .about-text p{
-  /*font-size: 22px;*/
+  font-size: 18px;
 }
 .about-text p:first-letter {
         font-family: "Times New Roman", Times, serif;
@@ -932,7 +953,9 @@ font-size: 22px;
     font-weight: bold;  
    }
 /*#===============about====================#*/
-
+.technology-btn{
+  margin: 10% 30% 0 38%;
+}
 
 .gallery {
   display: flex;
@@ -1135,3 +1158,88 @@ border: 2px solid #fff;
     float: right; /* выравниваем правую кнопку по правому краю */
     background: url(../img/arr_right.svg); /* картинка с правой кнопкой */
   }
+  /*SPISOK*/
+  .list_services{
+    font-family: Oswald-Light;
+    margin: 0 25% 0 25%;
+    text-align: left !important;
+  }
+  .push {
+  list-style: none;
+  /*font-family: "Lucida Sans";*/
+}
+.push li {
+  position: relative;
+  padding: 20px 0 20px 40px;
+  color: #00263A;
+  font-variant: small-caps;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 25px;
+}
+.push li:before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4F5151;
+  content: "";
+  left: 0;
+  transition: .3s ease-in-out;
+  top: 27px;
+}
+.push li:after {
+  position: absolute;
+  border-left: 1px dotted #4F5151;
+  width: 1px;
+  bottom: -12px;
+  content: "";
+  left: 3px;
+  top: 48px;
+}
+.push li:hover:before{box-shadow: 0 0 0 10px rgba(0,0,0,.2)}
+.push li:last-child:after {content: none;}
+
+
+
+/*SPISOK*/
+/*item*/
+.item_left{
+display: inline-block;
+float: left;
+width: 30%;
+}
+.item_right{
+display: inline-block;
+float: right;
+width: 70%;
+}
+/*item*/
+/*MEDIA*/
+   @media screen and (max-width: 1000px) {
+    .technology-btn {
+    margin: 10% 30% 0 25%;
+}
+.top__cols__bottom{
+  display: none;
+}}
+
+.top__cols__bottom{
+      margin-top: 10px;
+      text-align: left;
+}
+/*.btn-bordered{
+  height: 65px;
+
+}*/
+.btn-bordered__text{
+    font-size: 12px !important;
+    line-height: 2.5;
+}
+.push li {
+  font-size: 17px;
+}
+/*MEDIA*/
+.tech{
+      padding: 0px 100px;
+}

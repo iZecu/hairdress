@@ -2,48 +2,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico.png">
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <!-- icon -->
   <title>Парикмахер</title>
-  <link rel="dns-prefetch" href="//use.typekit.net">
-  <link rel="dns-prefetch" href="//s.w.org">
-  <link href="css/reset.css" rel="stylesheet">
-  <link rel="stylesheet" id="style-css-css" href="css/style.css" type="text/css" media="all">
-
-  <script src="http://code.jquery.com/jquery-latest.js"></script> <!-- подключаем последнюю версию jQuery -->
-  	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script> 
-  <link rel="stylesheet" type="text/css" href="css/gallery/style.css"> 
+  <!-- //=======================================CSS=======================================\\ -->
+  <!-- =======================================reset======================================= -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- =======================================reset======================================= -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- main -->
+  <!-- =======================================gallery======================================= -->
+  <link rel="stylesheet" type="text/css" href="css/gallery/style.css">
   <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <!-- =======================================gallery======================================= -->
+  <!-- //=======================================CSS=======================================\\ -->
+  <!-- =======================================js======================================= -->
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- =======================================js======================================= -->
   <!-- =======================================FONT========================================== -->
-    <style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
-</style>
-  <style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
-</style>
-  <style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style>
-    <style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
-</style>
-  <style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
-      <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style>
-      <style type="text/css">@font-face{font-family:tk-proxima-nova-n7;src:url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:tk-proxima-nova-n8;src:url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:tk-proxima-nova-n4;src:url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}</style>
-      <style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/889fa2/00000000000000003b9b038f/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/6476b3/00000000000000003b9b0390/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/l?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/d?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/0bc77e/00000000000000003b9b0389/27/a?primer=41296f4b45567960aa6d3f16c30ef1a94066fff5b0228d4a4f25b75167e29341&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}</style>
-        <style type="text/css">.gm-style {
-        font: 400 11px Roboto, Arial, sans-serif;
-        text-decoration: none;
-      }
-      .gm-style img { max-width: none; }</style>
-  <!--# =======================================FONT========================================== #-->
-</head>
 
+  <!-- =======================================FONT========================================== -->
+</head>
   <header class="main-header">
+    <!-- =======================================NAVBAR======================================= -->
     <div class="main-header__left-col">
       <div class="menu-top-menu-ru-container">
         <ul id="menu-top-menu-ru" class="main-menu">
           <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28">
-             <a href="#about">О нас</a>
+            <a href="#about">О нас</a>
           </li>
           <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29">
-            <a href="#price">Услуги</a>
+            <a href="#price">Прайс</a>
           </li>
           <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30">
             <a href="#lookbook">Портфолио</a>
@@ -54,17 +44,18 @@
         </ul>
       </div>
     </div>
+    <!-- =======================================NAVBAR======================================= -->
+    <!-- =======================================NAVBAR-BTN======================================= -->
     <div class="main-header__center-col">
       <button type="button" name="button" class="btn-reset main-menu-btn" data-dropdown-id="main-menu">
-        <img src="img/menu.svg" alt="" class="main-menu-btn__burger"  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-        <img src="img/close.svg" alt="" class="main-menu-btn__close"  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></button>
-      <!--   w71730.yclients.com -->
+        <img src="img/menu.svg" alt="" class="main-menu-btn__burger">
+        <img src="img/close.svg" alt="" class="main-menu-btn__close"></button>
       <a href="#contacts" class="btn-bordered main-header__center-col__record-btn">
         <span class="btn-bordered__text">Записаться</span>
       </a>
     </div>
+    <!-- =======================================NAVBAR-BTN======================================= --> 
   </header>
-
   <section class="section top" id="home hh">
     <div class="container">
       <div class="top__cols">
@@ -72,9 +63,8 @@
           <h1 class="top__title" style="margin-top:0px;">Смагина Елена</h1>
           <div class="top__text hide-on-small about-text  ">
             <p>
-               Мастер универсал,стилист.
-              Самые свежие и актуальные модные тенденции стрижек и причесок сезона 2018 с удовольствием.
-Удачно подобранная стрижка может оказать колоссальное влияние на нашу внешность, поэтому к процессу выбора новой прически необходимо подходить очень серьезно и ответственно.
+               Мастер универсал,стилист.<br>
+               10 лет работы на профессиональной линии косметики Schwarzkopf и Bella.
             </p>
  
           </div>
@@ -83,6 +73,21 @@
           <img src="img/arrow.svg" alt="arrow" ></div>
         <div class="top__cols__right">
           <img width="367" height="550" src="img/portfolio/master.jpg" class="top__img" alt="" srcset="" sizes="(max-width: 367px) 100vw, 367px"></div>
+      </div>
+
+    </div>
+  </section>
+    <section class="section price" id="uslugi">
+    <div class="container">
+
+      <div class="list_services">
+              <h1 class="section__title" style="font-size: 36px;    margin-left: 8%;">Услуги</h1>
+              <ul class="push">
+        <li>Квалифицированный подбор стрижки, прически, оттенка волос.</li>
+        <li>Лечение волос.</li>
+        <li>Консультация по подбору косметических средствпо уходу за волосами.</li>
+        <li>Возможность заказать косметические средства у мастера.</li>
+      </ul>
       </div>
 
     </div>
@@ -118,7 +123,10 @@
             </p>
   </div>
 </div>
-  <div class="containerg">
+    </div>
+  </section>
+  <section class="section">
+    <div class="containerg">
         
             <h1>сертификаты и технологии</h1>
 <div id="gallery">
@@ -148,14 +156,17 @@
                     <figcaption>Модель №6</figcaption>
                 </figure>
             </div>
+            <div class="technology-btn">
+          <a target="_blank" href="technology.html" class="btn-bordered -medium btn-record-handler-js" >
+        <span class="btn-bordered__text" style="width: 290px;font-size: 15px;">подробнее о технологиях</span>
+      </a>
+            </div>
 
         </div>
-
-    </div>
   </section>
   <section class="section price" id="price">
     <div class="container">
-      <h1 class="section__title" style="font-size: 36px;">Услуги</h1>
+      <h1 class="section__title" style="font-size: 36px;">Прайс</h1>
       <ul class="price-list">
         <li class="price-list__item">
           <span class="price-list__item__type">Стрижка женская</span>
@@ -197,7 +208,7 @@
       <section class="section lookbook" id="lookbook" style="padding-top: 20px;">
                 <div class="containerg">
         
-            <h1>портфолио</h1>
+            <h1>Портфолио</h1>
 
             <div id="gallery">
 
@@ -267,7 +278,7 @@
 <footer class="main-footer">
 
 <div class="left-col">
-  <span class="copyright">© Create by Birukoff</span>
+  <span class="copyright">© Create by <a href="#">Nikita Birukov</a></span>
 
 </div>
 
