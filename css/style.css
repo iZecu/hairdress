@@ -361,7 +361,7 @@ a {
     box-sizing: border-box; }
   .btn-bordered .-big-on-small {
     width: 100%; }
-   
+
 /*===================BTN==================*/
 .section {
   background: #C1C6C8;
@@ -527,8 +527,8 @@ a {
     position: absolute;
     top: -1px;
     right: 0; }
-   .vacanсies:hover, 
-  .city:hover, 
+   .vacanсies:hover,
+  .city:hover,
   .current-lang:hover {
     cursor: pointer; }
   .touch .vacanсies:active, .touch
@@ -793,7 +793,7 @@ text-align: center;
     text-transform: uppercase;
     color: #00263A;
     text-align: center;
-    margin: 30px 0; 
+    margin: 30px 0;
   }
   .top__title p{
 /*text-align: center;*/
@@ -805,14 +805,14 @@ text-align: center;
   }
   @media screen and (min-width: 1000px) {
     .top__title {
-      font-size: 50px; } 
+      font-size: 50px; }
 .technology-title{
-  font-size: 30px; 
+  font-size: 30px;
 }
     }
       @media screen and (max-width: 1000px) {
 .technology-title{
-  font-size: 22px; 
+  font-size: 22px;
 }
     }
 /*.container .top__title h1 {
@@ -950,7 +950,7 @@ font-size: 22px;
         font-family: "Times New Roman", Times, serif;
     font-size: 200%;
     color: #00263A;
-    font-weight: bold;  
+    font-weight: bold;
    }
 /*#===============about====================#*/
 .technology-btn{
@@ -1222,24 +1222,29 @@ width: 70%;
 }
 .top__cols__bottom{
   display: none;
-}}
+}
 
 .top__cols__bottom{
       margin-top: 10px;
       text-align: left;
 }
-/*.btn-bordered{
-  height: 65px;
+.btn-bordered{
+  /* height: 65px; */
 
-}*/
+}
 .btn-bordered__text{
     font-size: 12px !important;
-    line-height: 2.5;
+    /* line-height: 2.5; */
 }
 .push li {
   font-size: 17px;
-}
+    }}
 /*MEDIA*/
 .tech{
       padding: 0px 100px;
+}
+.item-4-img img{
+  max-width: 100%;
+    width: auto;
+    height: auto;
 }
